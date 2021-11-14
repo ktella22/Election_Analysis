@@ -47,6 +47,7 @@ with open(file_to_load) as election_data:
 
             # Begin tracking that candidate's vote count
             candidate_votes[candidate_name] = 0
+            print(candidate_votes)
 
          # Add a vote to that candidate's count
         candidate_votes[candidate_name] +=1
